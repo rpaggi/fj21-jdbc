@@ -9,8 +9,8 @@ public class TestaInsert {
 	public static void main(String[] args) {
 		Contato contato = new Contato();
 		
-		contato.setNome("Ronaldo Paggi");
-		contato.setEmail("ronaldo.paggi@gmail.com");
+		contato.setNome("Pamela Paggi");
+		contato.setEmail("pamela.soliveira@hotmail.com");
 		contato.setEndereco("Av. Henrique Gonçalves Baptista, 2245");
 		contato.setDataNascimento(Calendar.getInstance());
 		
