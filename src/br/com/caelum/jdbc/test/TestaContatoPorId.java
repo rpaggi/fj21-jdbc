@@ -9,7 +9,7 @@ public class TestaContatoPorId {
 	public static void main(String[] args) {
 		ContatoDao dao = new ContatoDao();
 
-		Contato contato = dao.getContatoById(1);
+		Contato contato = dao.getContatoById(4);
 		
 		System.out.println("Nome: " + contato.getNome());
 		System.out.println("Email: " + contato.getEmail());

@@ -11,9 +11,10 @@ public class TestaListaPorNome {
 	public static void main(String[] args) {
 		ContatoDao dao = new ContatoDao();
 		
-		List<Contato> contatos = dao.getContatosByName("aldo");
+		List<Contato> contatos = dao.getContatosByName("Pamela");
 		
 		for(Contato contato : contatos) {
+			System.out.println("Id: " + contato.getId());
 			System.out.println("Nome: " + contato.getNome());
 			System.out.println("Email: " + contato.getEmail());
 			System.out.println("Endereço: " + contato.getEndereco());
